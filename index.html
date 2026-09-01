@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adryan Portfolio</title>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<div class="bg-glow"></div>
+<div class="cursor" id="cursor"></div>
+
+<nav>
+  <div class="logo">ADRYAN</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <button class="btn" onclick="toggleTheme()">Theme</button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="tag">Junior Architect • BIM Enthusiast</div>
+  <h1 id="typing"></h1>
+  <p>
+    Desain arsitektur modern dengan fokus pada konteks, teknologi, dan pengalaman ruang.
+  </p>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p class="muted">
+    Saya Adryan Prasetia Ramadhan, fokus pada arsitektur modern, 3D design, dan smart city concept.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">REVIT BIM</div>
+    <div class="card">SKETCHUP</div>
+    <div class="card">AutoCAD</div>
+    <div class="card">D5</div>
+    <div class="card">Photoshop</div>
+    <div class="card">Parametric Thinking</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Kutilang House</h3>
+      <p class="muted">Sebuah rumah tinggal satiu lantai di jalan kutilang sakti.</p>
+    </div>
+
+    <div class="card">
+      <h3>La Pastiserri</h3>
+      <p class="muted">Sebuah bangunan fungsi ganda menggabungkan rumah tinggal dan Kafe</p>
+    </div>
+
+    <div class="card">
+      <h3>INFINITY GAMING
+        LAB</h3>
+      <p class="muted">Perancangan game center dan sebuah toko komputer di Pekanbaru.</p>
+    </div>
+
+    <div class="card">
+        <h3>Mix Use Building</h3>
+        <p class="muted">PERANCANGAN MALL PELAYANAN PUBLIK,
+            DAYCARE & CO-WORKING SPACE</p>
+      </div>
+
+      <div class="card">
+        <h3>Dumai Cultural Center</h3>
+        <p class="muted">Perancangan Pusat Kebudayaan di Kota Dumai, Riau</p>
+      </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+
+  <input id="name" placeholder="Nama"/>
+  <input id="email" placeholder="Email"/>
+  <textarea id="msg" rows="4" placeholder="Pesan"></textarea>
+
+  <button class="btn" onclick="send()">Kirim</button>
+  <p id="status" class="muted"></p>
+</section>
+
+<footer>
+  © 2026 Adryan Prasetia Ramadhan
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
